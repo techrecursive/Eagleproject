@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile UI</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header-container {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .header-container .logo {
+            width: 150px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+
+        .profile-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+        }
+
+        .profile-card h3 {
+            margin: 10px 0 5px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .profile-card p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .contact-info {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .social-media img {
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+        }
+
+        .calendly-link {
+            display: block;
+            margin-top: 10px;
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        .calendly-link:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            flex: 1; /* This allows the container to grow and push the footer down */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container-fluid header-container">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3">
+                        <img src="logo.webp" alt="Eagle Star Business Brokerage Logo" class="logo">
+                    </div>
+                    <div class="col-md-9">
+                        <nav class="navbar navbar-expand-lg navbar-dark">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="profile.html">Teams</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="jobs.html">Jobs</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="listings.html">Listing</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="other-services.html">Other Services</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Profile Section -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="profile-card">
+                    <img src="https://github.com/techrecursive/EagleStar/blob/main/pf_prs_Untitled_design_3_.png?raw=true" alt="Ganesh Lamichanne">
+                    <h3>Ganesh Lamichanne</h3>
+                    <p>With over a decade of experience in the retail industry, I have established a reputation as a savvy businessman and an industry expert...</p>
+                    <div class="contact-info">
+                        <p>443-653-3081</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/Eaglestarbusiness/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/realtorganesh22?igsh=d3NxYmRnbTcyN2hx" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram"></a>
+                    </div>
+                    <a class="calendly-link" href="https://calendly.com/">Book a meeting with Ganesh Lamichanne</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="profile-card">
+                    <img src="https://github.com/techrecursive/EagleStar/blob/main/338182569_615705533929363_1450779363498428787_n.jpg?raw=true" alt="Sanjok Karki">
+                    <h3>Sanjok Karki</h3>
+                    <p>Sanjok possesses extensive experience in real estate and retail operations, having successfully owned and managed an eight-figure retail business...</p>
+                    <div class="contact-info">
+                        <p>443-240-9222</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/sanjok.karki.39" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/sanjok.karki39/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram"></a>
+                    </div>
+                    <a class="calendly-link" href="https://calendly.com/">Book a meeting with Sanjok Karki</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="profile-card">
+                    <img src="https://github.com/techrecursive/EagleStar/blob/main/40BA1DA9.jpg?raw=true" alt="Ganga Lamichanne Simkhada">
+                    <h3>Ganga Lamichanne Simkhada</h3>
+                    <p>As a dedicated mortgage loan advisor, I specialize in finding optimal solutions for my clients, securing mortgages tailored to their unique needs...</p>
+                    <div class="contact-info">
+                        <p>443-653-3082</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/3Gl.simkhada?mibextid=LQQJ4d" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="Facebook"></a>
+                        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram"></a>
+                    </div>
+                    <a class="calendly-link" href="https://prod.lendingpad.com/simple-mortgage-llc/pos#/?loid=3d097cf4-b58c-4b5a-b117-7980a640549f">Book a meeting with Ganga Lamichanne Simkhada</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="profile-card">
+                    <img src="https://github.com/techrecursive/EagleStar/blob/main/RenderedImage11.jpg?raw=trueraw=true" alt="Asmi Bhandari">
+                    <h3>Asmi Bhandari</h3>
+                    <p>Hey everyone, I'm Asmi Bhandari, a 21-year-old South Asian entrepreneur and influencer with a strong background in finance...</p>
+                    <div class="contact-info">
+                        <p>443-903-5267</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/profile.php?id=61560051003923&mibextid=LQQJ4d" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/businesswithasmi?igsh=OTE3eDB1YjVneGVo&utm_source=qr" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram"></a>
+                    </div>
+                    <a class="calendly-link" href="https://calendly.com/">Book a meeting with Asmi Bhandari</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Eagle Star Business Brokerage Inc - All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a></p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle Star UI</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header img {
+            width: 150px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Main Section Styles */
+        .main-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .main-section img {
+            width: 100%;
+            max-width: 1200px;
+            height: auto;
+        }
+
+        .main-section h1 {
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+
+        .main-section p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Content Blocks */
+        .content-blocks {
+            margin: 40px 0;
+        }
+
+        .content-block img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .content-block h3 {
+            margin-top: 20px;
+            font-size: 1.5em;
+        }
+
+        .content-block p {
+            color: #777;
+        }
+
+        /* Reviews Section */
+        .reviews {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .review-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .review-card i {
+            font-size: 50px;
+            color: #999;
+        }
+
+        .review-card h4 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .review-card .stars {
+            color: #ff9900;
+            margin-bottom: 10px;
+        }
+
+        .review-card p {
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="logo.webp" alt="Eagle Star">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Teams</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="listings.html">Listing</a></li>
+            <li><a href="other-services.html">Other Services</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </header>
+
+    <!-- Main Section -->
+    <section class="main-section">
+        <div class="container">
+            <img src="main-image.jpg" alt="Main" class="img-fluid">
+            <h1>Experience Unmatched Opportunities with Eagle Star!</h1>
+            <p>Unlock the door to exceptional business opportunities with Eagle Star. We specialize in connecting you with high-potential business ventures.</p>
+        </div>
+    </section>
+
+    <!-- Content Blocks -->
+    <section class="content-blocks">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="content-block">
+                        <img src="image1.jpg" alt="Discover" class="img-fluid">
+                        <h3>Discover the Future</h3>
+                        <p>At Eagle Star, we believe in facilitating businesses for a brighter tomorrow.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="content-block">
+                        <img src="image2.jpg" alt="Service" class="img-fluid">
+                        <h3>Featured Service</h3>
+                        <p>Our custom valuation services help businesses grow strategically.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="content-block">
+                        <img src="image3.jpg" alt="Grow" class="img-fluid">
+                        <h3>Business Growth</h3>
+                        <p>Get expert consultation for expanding your business and unlocking new opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2>REVIEWS</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="review-card">
+                        <i class="fas fa-user-circle"></i>
+                        <h4>John</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"I bought Paradise Inn Cafe through Eagle Star."</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="review-card">
+                        <i class="fas fa-user-circle"></i>
+                        <h4>Rose</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The decision to purchase Bella Capri Salon through Eagle Star."</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="review-card">
+                        <i class="fas fa-user-circle"></i>
+                        <h4>Anonymous</h4>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The team at Eagle Star was attentive and made sure I was..."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Eagle Star Business Brokerage Inc - All Rights Reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a></p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
